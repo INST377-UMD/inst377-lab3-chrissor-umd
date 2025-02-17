@@ -9,21 +9,28 @@
     </header>
     <body>
         <div class="main-line">
-            <main>
+            <div id="main">
                 <form>
-
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="selection">Selection:</label>
+                    <select name="selection" id="selection">
+                        <option value="Rock">Rock</option>
+                        <option value="Paper">Paper</option>
+                        <option value="Scissors">Scissors</option>
+                    </select>
                 </form>
-            </main>
-            <div id="sidebar" class="sidebar">
+            </div>
+            <div id="sidebar">
                 <h3>How to play:</h3>
-                <p>Select Rock, Paper, or Scissors.</p>
-                <p>Rock beats Scissors.</p>
-                <p>Scissors beats Paper.</p>
-                <p>Paper beats Rock.</p>
+                <p>- Select Rock, Paper, or Scissors.</p>
+                <p>- Rock beats Scissors.</p>
+                <p>- Scissors beats Paper.</p>
+                <p>- Paper beats Rock.</p>
             </div>
         </div>
     </body>
-    <footer>
-
+    <footer class="header-footer">
+        <p>This is a footer</p>
     </footer>
 </html>
