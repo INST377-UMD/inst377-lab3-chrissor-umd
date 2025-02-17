@@ -12,6 +12,20 @@ body {
     padding: 10px;
 }
 
+nav {
+    
+    background-color: red;
+    color: white;
+    margin: 5px;
+    margin-top: -10px;
+    margin-bottom: -15px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
 .main-line {
     width: 100%;
     display: inline-flex;
@@ -23,7 +37,8 @@ body {
     color: white;
     padding: 10px;
     margin: 5px;
-    flex-basis: 75%
+    flex-basis: 75%;
+    margin-right:auto;
 }
 
 #fname {
